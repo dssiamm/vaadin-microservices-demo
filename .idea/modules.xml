@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-application/admin-application.iml" filepath="$PROJECT_DIR$/admin-application/admin-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biz-application/biz-application.iml" filepath="$PROJECT_DIR$/biz-application/biz-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-application/monitor-application.iml" filepath="$PROJECT_DIR$/monitor-application/monitor-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-application/news-application.iml" filepath="$PROJECT_DIR$/news-application/news-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy-server/proxy-server.iml" filepath="$PROJECT_DIR$/proxy-server/proxy-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry-application/registry-application.iml" filepath="$PROJECT_DIR$/registry-application/registry-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vaadin-microservices-demo.iml" filepath="$PROJECT_DIR$/vaadin-microservices-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website-application/website-application.iml" filepath="$PROJECT_DIR$/website-application/website-application.iml" />
+    </modules>
+  </component>
+</project>

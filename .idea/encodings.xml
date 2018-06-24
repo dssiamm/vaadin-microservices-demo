@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/admin-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/biz-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/proxy-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/website-application" charset="UTF-8" />
+  </component>
+</project>

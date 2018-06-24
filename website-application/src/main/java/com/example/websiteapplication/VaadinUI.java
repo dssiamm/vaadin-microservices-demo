@@ -4,6 +4,7 @@ import com.vaadin.server.ExternalResource;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.BrowserFrame;
+import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.HorizontalSplitPanel;
 import com.vaadin.ui.UI;
 import org.springframework.beans.factory.annotation.Value;
@@ -20,6 +21,9 @@ public class VaadinUI extends UI {
     @Value("${admin-application.url}")
     private String adminUrl;
 
+    @Value("${registryapplication-application.url}")
+    private String registryUrl;
+
     @Value("${ui.split.position:30}")
     private int uiSplitPosition;
 
@@ -34,7 +38,12 @@ public class VaadinUI extends UI {
         BrowserFrame admin = new BrowserFrame("Admin", new ExternalResource(adminUrl));
         admin.setSizeFull();
 
-        HorizontalSplitPanel mainLayout = new HorizontalSplitPanel(admin, news);
+        BrowserFrame registry = new BrowserFrame("Registry", new ExternalResource(registryUrl));
+        registry.setSizeFull();
+
+//        HorizontalLayout layout = new HorizontalLayout();
+//        layout.add
+        HorizontalSplitPanel mainLayout = new HorizontalSplitPanel(registry, news);
         mainLayout.setSplitPosition(uiSplitPosition);
         mainLayout.setSizeFull();
 
