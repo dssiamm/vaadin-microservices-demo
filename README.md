@@ -12,7 +12,7 @@
   * config-server: Externalized configuration.
   * proxy-server: Edge service with dynamic routing.
   
-![demo_app] https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/demo_app.png
+![demo_app](https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/demo_app.png)
 
 ## Building the demo
 
