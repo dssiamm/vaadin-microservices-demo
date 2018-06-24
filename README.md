@@ -66,7 +66,7 @@ java -Dserver.port=9001 -jar target/website-application-0.0.1-SNAPSHOT.jar
 ```
 cd vaadin-microservices-demo/proxy-server
 java -jar target/proxy-server-0.0.1-SNAPSHOT.jar
-
+```
 
 ## Using the Demo Application
 
