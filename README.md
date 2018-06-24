@@ -79,7 +79,10 @@ We are using TeamCity is a Java-based build management and continuous integratio
 
 ## Authors
 
-* **dsiamm** - **Shayda** - **bartromg** - **hamster95** - (https://github.com/dssiamm/vaadin-microservices-demo)
+  * **dsiamm** - (https://github.com/dssiamm/vaadin-microservices-demo)
+  * **shayda** - (https://github.com/shayda)
+  * **bartromg** - (https://github.com/bartromg)
+  * **hamster95** - (https://github.com/hamster95)
 
 ## Acknowledgments
 
