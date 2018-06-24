@@ -17,6 +17,7 @@
         <module>website-application</module>
         <module>proxy-server</module>
         <module>monitor-application</module>
+        <module>registry-application</module>
     </modules>
 
 </project>
