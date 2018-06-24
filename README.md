@@ -6,11 +6,12 @@
   * admin-application: A web user interface to interact with data (companies).
   * news-application: A web user interface to display data (companies’ tweets).
   * website-application: A portal-like website that renders multiple web applications in a single web page.
-1. Additionally, the system requires three orchestration services:
+2. Additionally, the system requires three orchestration services:
 
   * discovery-server: Service registration and discovery.
   * config-server: Externalized configuration.
   * proxy-server: Edge service with dynamic routing.
+  ![] https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/demo_app.png
 
 ## Building the demo
 
