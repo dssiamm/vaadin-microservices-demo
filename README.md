@@ -1,6 +1,6 @@
-# Microservices with Vaadin demo
+# Project Title
 
-This demo shows a Microservices Architecture implemented with [Spring Cloud Netflix](http://cloud.spring.io/spring-cloud-netflix/) and [Vaadin](https://vaadin.com).
+One Paragraph of project description goes here
 
 ## Building the demo
 
@@ -11,7 +11,15 @@ cd vaadin-microservices-demo
 mvn package
 ```
 
-## Running the demo
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installing
 
 Use multiple (seven) terminals to perform the following steps:
 
@@ -55,49 +63,40 @@ java -Dserver.port=9001 -jar target/website-application-0.0.1-SNAPSHOT.jar
 ```
 cd vaadin-microservices-demo/proxy-server
 java -jar target/proxy-server-0.0.1-SNAPSHOT.jar
-```
-
-## Using the demo
-
-**1) Point your browser to <http://localhost:8080>.**
-
-You'll see the `website-application` embedding the `admin-application` and the `news-application` microservices.
-
-This is the "edge service" implemented with Netflix Zuul. It acts as a reverse proxy, redirecting requests to the `website-application`, `news-application`, and `admin-application` instances using a load balancer provided by Netflix Ribbon with a _round robin_ strategy.
-
-If you get a "Server not available" message, please wait until all the services are registered with the `discovery-server` (implemented with Netflix Eureka).
-
-**2) Add, update, or delete data.**
-
-Latest tweets from the companies you enter on the left (the `admin-application`) will be rendered on the right (the `news-application`).
-
-The `admin-application`, and `news-application` instances (implemented with Vaadin) delegate CRUD operations to the `biz-application` (implemented with Spring Data Rest) using a load balancer (provided by Netflix Ribbon) with a _round robin_ strategy.
-
-**3) Add microservice instances.**
-
-You can horizontally scale the system by starting more instances of the `biz-application`, `admin-application`, `news-application`, and `website-application` microservices. Remember to specify an available port (using `-Dserver.port=NNNN`) when you start a new instance.
-
-**4) Test high-availability.**
-
-Make sure you are running two instances of the `admin-application`. Click the _+_ (Add) button and enter `Vaadin`
-as the _name_, and `vaadin` as the _Twitter Username_. Don't click the _Add_ button yet.
-
-Stop one of the instences of the `admin-application` and click the _Add_ button. The web application should remain functional and save the data you entered without losing the state of the UI thanks to the externalized HTTP Session (implemented with Spring Session and Hazelcast).
-
-**5) Test system resilience.**
-
-Stop all the instances of the `biz-application` microservice and refresh the browser to see the fallback mechanisms (implemented with Netflix Hystrix) in the `admin-application` and `news-application` microservices.
-
-## Developing
-
-You don't need to have all the infrastructure services running (`discovery-server`, `config-server`, and `proxy-server`) in order to develop individual microservices (`biz-application`, `admin-application`, `news-application`, and `website-application`). Activate the `development` Spring profile to use a local configuration (`application-development.properties`) that excludes external orchestration services.
-
-For example, during development you can run the `biz-application` microservice using:
-
-```
-cd vaadin-microservices-demo/biz-application
-java -Dspring.profiles.active=development -jar target/biz-application-0.0.1-SNAPSHOT.jar
-```
 
 
-With the `admin-application`, and `news-application` you need the REST web-service provided by the `biz-application`. You can either, run the `biz-application` in `development` mode or create a _mock_ REST web service. You can configure the end point with the `biz-application.url` property in the `application-development.properties`.
+## Using the Demo Application
+
+Point your browser to http://localhost:8080 and try adding companies with actual Twitter account names. Refresh the browser to see the latest tweets of the entered companies.
+
+
+
+## Built With CI TeamCity
+
+We are using TeamCity is a Java-based build management and continuous integration server from JetBrains.
+
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
+
