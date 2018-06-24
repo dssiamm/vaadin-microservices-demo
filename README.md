@@ -1,23 +1,26 @@
 # Project Title
 
-One Paragraph of project description goes here
+The functionality of the demo application is provided through 4 microservices:
+
+biz-application: A REST API for managing data (companies).
+admin-application: A web user interface to interact with data (companies).
+news-application: A web user interface to display data (companies’ tweets).
+website-application: A portal-like website that renders multiple web applications in a single web page.
+Additionally, the system requires three orchestration services:
+
+discovery-server: Service registration and discovery.
+config-server: Externalized configuration.
+proxy-server: Edge service with dynamic routing.
 
 ## Building the demo
 
 Run the following from the command line:
 ```
-git clone https://github.com/alejandro-du/vaadin-microservices-demo.git
+git clone https://github.com/dssiamm/vaadin-microservices-demo
 cd vaadin-microservices-demo
 mvn package
 ```
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
@@ -70,29 +73,13 @@ java -jar target/proxy-server-0.0.1-SNAPSHOT.jar
 Point your browser to http://localhost:8080 and try adding companies with actual Twitter account names. Refresh the browser to see the latest tweets of the entered companies.
 
 
-
-## Built With CI TeamCity
+## Versioning
 
 We are using TeamCity is a Java-based build management and continuous integration server from JetBrains.
 
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **dsiamm** - **Shayda** - **bartromg** - **hamster95** - (https://github.com/dssiamm/vaadin-microservices-demo)
 
 ## Acknowledgments
 
