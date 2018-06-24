@@ -13,6 +13,7 @@
   * proxy-server: Edge service with dynamic routing.
   
   demo_app:
+  
   ![demo_app](https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/demo_app.png)
 
 ## Building the demo
@@ -81,9 +82,11 @@ Point your browser to http://localhost:8080 and try adding companies with actual
   We are using TeamCity is a Java-based build management and continuous integration server from JetBrains.
   
   Our_CI_TeamCity:
-  ![Our_CI_TeamCity](https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/Our_CI_Teamcity.jpg)
+  
+  ![Our_CI_TeamCity](https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/Our_CI_Teamcity.png)
   
   successfull_build_CI:
+  
   ![successfull_build_CI](https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/successfull_build_CI.png)
 
 ## Authors
