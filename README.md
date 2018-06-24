@@ -2,15 +2,15 @@
 
 1. The functionality of the demo application is provided through 4 microservices:
 
-⋅⋅* biz-application: A REST API for managing data (companies).
-⋅⋅* admin-application: A web user interface to interact with data (companies).
-⋅⋅* news-application: A web user interface to display data (companies’ tweets).
-⋅⋅* website-application: A portal-like website that renders multiple web applications in a single web page.
+  * biz-application: A REST API for managing data (companies).
+  * admin-application: A web user interface to interact with data (companies).
+  * news-application: A web user interface to display data (companies’ tweets).
+  * website-application: A portal-like website that renders multiple web applications in a single web page.
 1. Additionally, the system requires three orchestration services:
 
-⋅⋅* discovery-server: Service registration and discovery.
-⋅⋅* config-server: Externalized configuration.
-⋅⋅* proxy-server: Edge service with dynamic routing.
+  * discovery-server: Service registration and discovery.
+  * config-server: Externalized configuration.
+  * proxy-server: Edge service with dynamic routing.
 
 ## Building the demo
 
