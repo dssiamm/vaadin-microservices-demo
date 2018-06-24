@@ -12,7 +12,7 @@
   * config-server: Externalized configuration.
   * proxy-server: Edge service with dynamic routing.
   
-![demo_app](https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/demo_app.png)
+  ![demo_app](https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/demo_app.png)
 
 ## Building the demo
 
@@ -77,7 +77,8 @@ Point your browser to http://localhost:8080 and try adding companies with actual
 
 ## Versioning
 
-We are using TeamCity is a Java-based build management and continuous integration server from JetBrains.
+  We are using TeamCity is a Java-based build management and continuous integration server from JetBrains.
+  ![Our_CI_TeamCity](https://github.com/dssiamm/vaadin-microservices-demo/blob/master/images/Our_CI_Teamcity.jpg)
 
 ## Authors
 
