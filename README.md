@@ -3,6 +3,7 @@
 The functionality of the demo application is provided through 4 microservices:
 
 biz-application: A REST API for managing data (companies).
+
 admin-application: A web user interface to interact with data (companies).
 news-application: A web user interface to display data (companies’ tweets).
 website-application: A portal-like website that renders multiple web applications in a single web page.
