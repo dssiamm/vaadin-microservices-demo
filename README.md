@@ -1,4 +1,4 @@
-# Project Title
+# Twitter Observer
 
 1. The functionality of the demo application is provided through 4 microservices:
 
