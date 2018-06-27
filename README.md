@@ -10,7 +10,7 @@
 
   * discovery-server: Service registration and discovery.
   * config-server: Externalized configuration.
-  * proxy-server: Edge service with dynamic routing.
+  * proxy-server: Edge service with dynamic routing..
   
   demo_app:
   
